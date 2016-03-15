@@ -22,6 +22,7 @@ tracker.addGestureRecognizer(winder)
 ## Parameters
 
 **minDistance**  < Touch Recognizing Area < **maxDistance**
+
 ![Distance](doc/distance.png)
 
 ## License
