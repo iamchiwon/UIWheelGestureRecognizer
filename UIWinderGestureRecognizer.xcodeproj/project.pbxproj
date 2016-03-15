@@ -12,7 +12,7 @@
 		A1FFE0111C97F51F00A61FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FFE00F1C97F51F00A61FBB /* Main.storyboard */; };
 		A1FFE0131C97F51F00A61FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FFE0121C97F51F00A61FBB /* Assets.xcassets */; };
 		A1FFE0161C97F51F00A61FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FFE0141C97F51F00A61FBB /* LaunchScreen.storyboard */; };
-		A1FFE01E1C97F60700A61FBB /* UIWinderGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE01D1C97F60700A61FBB /* UIWinderGestureRecognizer.swift */; };
+		A1FFE01E1C97F60700A61FBB /* UIWheelGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE01D1C97F60700A61FBB /* UIWheelGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		A1FFE0121C97F51F00A61FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1FFE0151C97F51F00A61FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1FFE0171C97F51F00A61FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1FFE01D1C97F60700A61FBB /* UIWinderGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIWinderGestureRecognizer.swift; path = UIWinderGestureRecognizer/UIWinderGestureRecognizer.swift; sourceTree = "<group>"; };
+		A1FFE01D1C97F60700A61FBB /* UIWheelGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIWheelGestureRecognizer.swift; path = UIWinderGestureRecognizer/UIWheelGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				A1FFE00B1C97F51F00A61FBB /* AppDelegate.swift */,
 				A1FFE00D1C97F51F00A61FBB /* ViewController.swift */,
-				A1FFE01D1C97F60700A61FBB /* UIWinderGestureRecognizer.swift */,
+				A1FFE01D1C97F60700A61FBB /* UIWheelGestureRecognizer.swift */,
 				A1FFE00F1C97F51F00A61FBB /* Main.storyboard */,
 				A1FFE0121C97F51F00A61FBB /* Assets.xcassets */,
 				A1FFE0141C97F51F00A61FBB /* LaunchScreen.storyboard */,
@@ -140,7 +140,7 @@
 			files = (
 				A1FFE00E1C97F51F00A61FBB /* ViewController.swift in Sources */,
 				A1FFE00C1C97F51F00A61FBB /* AppDelegate.swift in Sources */,
-				A1FFE01E1C97F60700A61FBB /* UIWinderGestureRecognizer.swift in Sources */,
+				A1FFE01E1C97F60700A61FBB /* UIWheelGestureRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

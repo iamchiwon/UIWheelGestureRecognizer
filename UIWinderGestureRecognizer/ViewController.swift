@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
 
     func setGestureRecognizer() {
-        let winder = UIWinderGestureRecognizer()
+        let winder = UIWheelGestureRecognizer()
         winder.minDistance = 50
         winder.maxDistance = 100
         winder.setHandler { (recognizer) -> (Void) in

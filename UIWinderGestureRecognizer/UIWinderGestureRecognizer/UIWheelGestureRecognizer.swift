@@ -9,9 +9,9 @@
 import UIKit
 import UIKit.UIGestureRecognizerSubclass
 
-class UIWinderGestureRecognizer: UIGestureRecognizer {
+class UIWheelGestureRecognizer: UIGestureRecognizer {
     
-    typealias UIWinderGestureRecognizerDelegate = (recognizer:UIWinderGestureRecognizer) -> (Void)
+    typealias UIWheelGestureRecognizerDelegate = (recognizer:UIWheelGestureRecognizer) -> (Void)
     
     enum Direction: String {
         case None = "None"
@@ -26,9 +26,9 @@ class UIWinderGestureRecognizer: UIGestureRecognizer {
     
     
     
-    private var eventHandler : UIWinderGestureRecognizerDelegate? = nil
+    private var eventHandler : UIWheelGestureRecognizerDelegate? = nil
     
-    func setHandler(handler:UIWinderGestureRecognizerDelegate) {
+    func setHandler(handler:UIWheelGestureRecognizerDelegate) {
         eventHandler = handler
     }
     
