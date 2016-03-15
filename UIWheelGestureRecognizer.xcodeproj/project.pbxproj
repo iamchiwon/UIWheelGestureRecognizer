@@ -7,23 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1FFE00C1C97F51F00A61FBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE00B1C97F51F00A61FBB /* AppDelegate.swift */; };
-		A1FFE00E1C97F51F00A61FBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE00D1C97F51F00A61FBB /* ViewController.swift */; };
-		A1FFE0111C97F51F00A61FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FFE00F1C97F51F00A61FBB /* Main.storyboard */; };
-		A1FFE0131C97F51F00A61FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FFE0121C97F51F00A61FBB /* Assets.xcassets */; };
-		A1FFE0161C97F51F00A61FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FFE0141C97F51F00A61FBB /* LaunchScreen.storyboard */; };
-		A1FFE01E1C97F60700A61FBB /* UIWheelGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE01D1C97F60700A61FBB /* UIWheelGestureRecognizer.swift */; };
+		A1FFE02A1C98147A00A61FBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE0201C98147A00A61FBB /* AppDelegate.swift */; };
+		A1FFE02B1C98147A00A61FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FFE0211C98147A00A61FBB /* Assets.xcassets */; };
+		A1FFE02C1C98147A00A61FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FFE0221C98147A00A61FBB /* LaunchScreen.storyboard */; };
+		A1FFE02D1C98147A00A61FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FFE0241C98147A00A61FBB /* Main.storyboard */; };
+		A1FFE02E1C98147A00A61FBB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1FFE0261C98147A00A61FBB /* Info.plist */; };
+		A1FFE02F1C98147A00A61FBB /* UIWheelGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE0281C98147A00A61FBB /* UIWheelGestureRecognizer.swift */; };
+		A1FFE0301C98147A00A61FBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFE0291C98147A00A61FBB /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1FFE0081C97F51E00A61FBB /* UIWheelGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWheelGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1FFE00B1C97F51F00A61FBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1FFE00D1C97F51F00A61FBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A1FFE0101C97F51F00A61FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1FFE0121C97F51F00A61FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1FFE0151C97F51F00A61FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A1FFE0171C97F51F00A61FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1FFE01D1C97F60700A61FBB /* UIWheelGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIWheelGestureRecognizer.swift; path = UIWinderGestureRecognizer/UIWheelGestureRecognizer.swift; sourceTree = "<group>"; };
+		A1FFE0201C98147A00A61FBB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1FFE0211C98147A00A61FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1FFE0231C98147A00A61FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1FFE0251C98147A00A61FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1FFE0261C98147A00A61FBB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FFE0281C98147A00A61FBB /* UIWheelGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWheelGestureRecognizer.swift; sourceTree = "<group>"; };
+		A1FFE0291C98147A00A61FBB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +41,7 @@
 		A1FFDFFF1C97F51E00A61FBB = {
 			isa = PBXGroup;
 			children = (
-				A1FFE00A1C97F51E00A61FBB /* UIWheelGestureRecognizer */,
+				A1FFE01F1C98147A00A61FBB /* UIWheelGestureRecognizer */,
 				A1FFE0091C97F51E00A61FBB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +54,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1FFE00A1C97F51E00A61FBB /* UIWheelGestureRecognizer */ = {
+		A1FFE01F1C98147A00A61FBB /* UIWheelGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
-				A1FFE00B1C97F51F00A61FBB /* AppDelegate.swift */,
-				A1FFE00D1C97F51F00A61FBB /* ViewController.swift */,
-				A1FFE01D1C97F60700A61FBB /* UIWheelGestureRecognizer.swift */,
-				A1FFE00F1C97F51F00A61FBB /* Main.storyboard */,
-				A1FFE0121C97F51F00A61FBB /* Assets.xcassets */,
-				A1FFE0141C97F51F00A61FBB /* LaunchScreen.storyboard */,
-				A1FFE0171C97F51F00A61FBB /* Info.plist */,
+				A1FFE0201C98147A00A61FBB /* AppDelegate.swift */,
+				A1FFE0211C98147A00A61FBB /* Assets.xcassets */,
+				A1FFE0221C98147A00A61FBB /* LaunchScreen.storyboard */,
+				A1FFE0241C98147A00A61FBB /* Main.storyboard */,
+				A1FFE0261C98147A00A61FBB /* Info.plist */,
+				A1FFE0271C98147A00A61FBB /* UIWinderGestureRecognizer */,
+				A1FFE0291C98147A00A61FBB /* ViewController.swift */,
 			);
-			name = UIWheelGestureRecognizer;
+			path = UIWheelGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		A1FFE0271C98147A00A61FBB /* UIWinderGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				A1FFE0281C98147A00A61FBB /* UIWheelGestureRecognizer.swift */,
+			);
 			path = UIWinderGestureRecognizer;
 			sourceTree = "<group>";
 		};
@@ -126,9 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1FFE0161C97F51F00A61FBB /* LaunchScreen.storyboard in Resources */,
-				A1FFE0131C97F51F00A61FBB /* Assets.xcassets in Resources */,
-				A1FFE0111C97F51F00A61FBB /* Main.storyboard in Resources */,
+				A1FFE02B1C98147A00A61FBB /* Assets.xcassets in Resources */,
+				A1FFE02D1C98147A00A61FBB /* Main.storyboard in Resources */,
+				A1FFE02C1C98147A00A61FBB /* LaunchScreen.storyboard in Resources */,
+				A1FFE02E1C98147A00A61FBB /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,29 +148,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1FFE00E1C97F51F00A61FBB /* ViewController.swift in Sources */,
-				A1FFE00C1C97F51F00A61FBB /* AppDelegate.swift in Sources */,
-				A1FFE01E1C97F60700A61FBB /* UIWheelGestureRecognizer.swift in Sources */,
+				A1FFE0301C98147A00A61FBB /* ViewController.swift in Sources */,
+				A1FFE02F1C98147A00A61FBB /* UIWheelGestureRecognizer.swift in Sources */,
+				A1FFE02A1C98147A00A61FBB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A1FFE00F1C97F51F00A61FBB /* Main.storyboard */ = {
+		A1FFE0221C98147A00A61FBB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A1FFE0101C97F51F00A61FBB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A1FFE0141C97F51F00A61FBB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1FFE0151C97F51F00A61FBB /* Base */,
+				A1FFE0231C98147A00A61FBB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A1FFE0241C98147A00A61FBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FFE0251C98147A00A61FBB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -252,7 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = UIWinderGestureRecognizer/Info.plist;
+				INFOPLIST_FILE = UIWheelGestureRecognizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iamchiwon.UIWheelGestureRecognizer;
 				PRODUCT_NAME = UIWheelGestureRecognizer;
@@ -263,7 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = UIWinderGestureRecognizer/Info.plist;
+				INFOPLIST_FILE = UIWheelGestureRecognizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iamchiwon.UIWheelGestureRecognizer;
 				PRODUCT_NAME = UIWheelGestureRecognizer;
