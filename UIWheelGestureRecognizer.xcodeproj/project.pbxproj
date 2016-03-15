@@ -58,12 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				A1FFE0201C98147A00A61FBB /* AppDelegate.swift */,
-				A1FFE0211C98147A00A61FBB /* Assets.xcassets */,
+				A1FFE0291C98147A00A61FBB /* ViewController.swift */,
 				A1FFE0221C98147A00A61FBB /* LaunchScreen.storyboard */,
 				A1FFE0241C98147A00A61FBB /* Main.storyboard */,
+				A1FFE0211C98147A00A61FBB /* Assets.xcassets */,
 				A1FFE0261C98147A00A61FBB /* Info.plist */,
 				A1FFE0271C98147A00A61FBB /* UIWinderGestureRecognizer */,
-				A1FFE0291C98147A00A61FBB /* ViewController.swift */,
 			);
 			path = UIWheelGestureRecognizer;
 			sourceTree = "<group>";
