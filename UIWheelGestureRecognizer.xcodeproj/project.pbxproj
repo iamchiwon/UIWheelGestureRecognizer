@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1FFE0081C97F51E00A61FBB /* UIWinderGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWinderGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FFE0081C97F51E00A61FBB /* UIWheelGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWheelGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FFE00B1C97F51F00A61FBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1FFE00D1C97F51F00A61FBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1FFE0101C97F51F00A61FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		A1FFDFFF1C97F51E00A61FBB = {
 			isa = PBXGroup;
 			children = (
-				A1FFE00A1C97F51E00A61FBB /* UIWinderGestureRecognizer */,
+				A1FFE00A1C97F51E00A61FBB /* UIWheelGestureRecognizer */,
 				A1FFE0091C97F51E00A61FBB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		A1FFE0091C97F51E00A61FBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1FFE0081C97F51E00A61FBB /* UIWinderGestureRecognizer.app */,
+				A1FFE0081C97F51E00A61FBB /* UIWheelGestureRecognizer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1FFE00A1C97F51E00A61FBB /* UIWinderGestureRecognizer */ = {
+		A1FFE00A1C97F51E00A61FBB /* UIWheelGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
 				A1FFE00B1C97F51F00A61FBB /* AppDelegate.swift */,
@@ -64,15 +64,16 @@
 				A1FFE0141C97F51F00A61FBB /* LaunchScreen.storyboard */,
 				A1FFE0171C97F51F00A61FBB /* Info.plist */,
 			);
+			name = UIWheelGestureRecognizer;
 			path = UIWinderGestureRecognizer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1FFE0071C97F51E00A61FBB /* UIWinderGestureRecognizer */ = {
+		A1FFE0071C97F51E00A61FBB /* UIWheelGestureRecognizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1FFE01A1C97F51F00A61FBB /* Build configuration list for PBXNativeTarget "UIWinderGestureRecognizer" */;
+			buildConfigurationList = A1FFE01A1C97F51F00A61FBB /* Build configuration list for PBXNativeTarget "UIWheelGestureRecognizer" */;
 			buildPhases = (
 				A1FFE0041C97F51E00A61FBB /* Sources */,
 				A1FFE0051C97F51E00A61FBB /* Frameworks */,
@@ -82,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = UIWinderGestureRecognizer;
+			name = UIWheelGestureRecognizer;
 			productName = UIWinderGestureRecognizer;
-			productReference = A1FFE0081C97F51E00A61FBB /* UIWinderGestureRecognizer.app */;
+			productReference = A1FFE0081C97F51E00A61FBB /* UIWheelGestureRecognizer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A1FFE0031C97F51E00A61FBB /* Build configuration list for PBXProject "UIWinderGestureRecognizer" */;
+			buildConfigurationList = A1FFE0031C97F51E00A61FBB /* Build configuration list for PBXProject "UIWheelGestureRecognizer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -115,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1FFE0071C97F51E00A61FBB /* UIWinderGestureRecognizer */,
+				A1FFE0071C97F51E00A61FBB /* UIWheelGestureRecognizer */,
 			);
 		};
 /* End PBXProject section */
@@ -253,8 +254,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIWinderGestureRecognizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iamchiwon.UIWinderGestureRecognizer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamchiwon.UIWheelGestureRecognizer;
+				PRODUCT_NAME = UIWheelGestureRecognizer;
 			};
 			name = Debug;
 		};
@@ -264,15 +265,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIWinderGestureRecognizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iamchiwon.UIWinderGestureRecognizer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamchiwon.UIWheelGestureRecognizer;
+				PRODUCT_NAME = UIWheelGestureRecognizer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1FFE0031C97F51E00A61FBB /* Build configuration list for PBXProject "UIWinderGestureRecognizer" */ = {
+		A1FFE0031C97F51E00A61FBB /* Build configuration list for PBXProject "UIWheelGestureRecognizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1FFE0181C97F51F00A61FBB /* Debug */,
@@ -281,7 +282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1FFE01A1C97F51F00A61FBB /* Build configuration list for PBXNativeTarget "UIWinderGestureRecognizer" */ = {
+		A1FFE01A1C97F51F00A61FBB /* Build configuration list for PBXNativeTarget "UIWheelGestureRecognizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1FFE01B1C97F51F00A61FBB /* Debug */,
